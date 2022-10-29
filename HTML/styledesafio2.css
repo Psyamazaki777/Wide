@@ -1,0 +1,159 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+headerv {
+    margin: 47px 36px 0 0;
+}
+
+
+.link-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+    margin-top: 47px;
+}
+
+img {
+    width: 533.83px;
+    height: 466.9px;
+    margin-left: 121px;
+    margin-top: 277.2px;
+}
+
+section {
+    display: inline-block;
+}
+
+h1 {
+
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    margin-left: 97px;
+    margin-top: 342px;
+
+
+
+
+}
+
+.button-sing {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-sizing: border-box;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    margin-left: 97px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.button-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    margin-left: 96px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:900px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        display: none;
+
+    }
+
+
+    h1 {
+        position: static;
+        display: block;
+        width: 278px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        display: block;
+        line-height: 30px;
+        margin: 124px 55px 0 57px;
+
+    }
+
+
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        margin: 29px 43px 26px 43px;
+        display: block;
+        width: 304px;
+        height: 165px;
+
+
+
+    }
+
+    .button-more {
+        display: block;
+        border: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        cursor: pointer;
+        width: 112px;
+        height: 27px;
+        margin-left: 129px;
+        margin-right: 129px;
+        color: #6FBF44;
+        border-radius: none;
+
+    }
+
+    .button-sing {
+        margin: 17px 15px 0px 284px;
+        border-radius: 3px;
+    }
+
+    img {
+
+        position: absolute;
+        height: 268.93px;
+        width: 100vw;
+        display: block;
+        margin: 507px 10px 0 10px;
+    }
+
+}
